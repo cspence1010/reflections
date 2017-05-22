@@ -1,5 +1,6 @@
 Lesson 2:
 
+
 What happens when you initialize a repository? Why do you need to do it?
 -When we initialize a repository it creates the repository for the first time,
 but Git does not create an initial commit, or snapshot, of the history. This
@@ -10,4 +11,12 @@ our commits and keep a history of the changes made to our code. This allows us
 to create our own repositories rather than 'borrowing' from someone else's
 work.
 
-
+How is the staging area different from the working directory and the
+repositroy? What value do you think it offers?
+-The staging area is an intermediary area, it is between the working directory 
+and the repository. Before you make a commit, and make any changes, you can add
+files to the staging area. They wont appear yet in the repository until the
+commit has been made. It allows us to view the changes before we make any
+commit. While Git allows us to review and go back and undo any changes, the
+staging area gives us the opportunity to review our changes before they are
+added to the repository.
