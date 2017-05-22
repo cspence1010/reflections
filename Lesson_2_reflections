@@ -1,0 +1,13 @@
+Lesson 2:
+
+What happens when you initialize a repository? Why do you need to do it?
+-When we initialize a repository it creates the repository for the first time,
+but Git does not create an initial commit, or snapshot, of the history. This
+is important to remember as commands such as 'git status' and 'git log' will
+return errors or inform us that there is no history to be viewed, no changes
+made. It's important to initialize our own repositories so that we can save
+our commits and keep a history of the changes made to our code. This allows us
+to create our own repositories rather than 'borrowing' from someone else's
+work.
+
+

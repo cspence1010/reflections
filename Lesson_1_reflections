@@ -1,0 +1,64 @@
+
+
+
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    There was less code to view thus giving us less to look through.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It allows us to go back if we made a mistake in an updated version.
+    This way we can always return to a point where our code worked.
+    Thus, it is easier to find the cause of our problems.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually savings gives the user more control over what changed in each version.
+    Auto-saves present various issues such as saving in the middle of a line.
+    Using manual saves it is possible to make a save after each important change
+    made to a project.
+    This makes using 'diff' more productive and easier.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It seems some version control systems are geared towards certain users.
+    Git seems to keep programmers in mind and so the capability to save
+    multiple files at once is a valuable tool.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    'Git log' gives a full display of all previous versions of a file.
+    It allows me to see the progress that has been made, which is a good
+    motivator.
+    Git log allows me to see the various checkpoints and find common mistakes
+    I make if I need to imporve upon anything or show patterns as I work on
+    projects.
+    Taking a step back and having a large overview is sometimes a good change
+    of perspective. It helps reveal where mistakes might have been made.
+    'Git diff' makes it easy to compare two files closely. Once a mistake has been
+    discovered, git diff makes it easier to narrow down how that mistake was made
+    and what changes need to be done to reverse them and get everything functioning.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By having frequent checkpoints that are easy to view and compare, discovering
+    mistakes and what impact they have on the project as a whole are easy to
+    observe and so making errors isn't large threat overall as it can be reversed.
+    Thus, making changes, even ones that may break something, aren't as threatening.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    My goal is to use Git to practice for the time being. I intend to use it often
+    once I get started with coding, and using it for taking notes for now as I study
+    should give me a decent amount of experience by the time I start using it full time.
+
+
+
+
