@@ -1,0 +1,10 @@
+Lesson 3:
+
+
+When would you want to use a remote repository rather than keeping all your work local?
+-You would want to use a remote repository in the scenario when you're working with multiple people on the same
+file or project. So for example, if I were to work on a game with someone else, we would want a remote repository
+where both of our work was being saved and could be accessed easily.
+-If I were to work on the same project from multiple devices it would also be useful to have my work saved on a
+remote repository so I could update my work and continue where I left off without having to transfer to each device
+after every change.
