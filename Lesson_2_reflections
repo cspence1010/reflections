@@ -20,3 +20,52 @@ commit has been made. It allows us to view the changes before we make any
 commit. While Git allows us to review and go back and undo any changes, the
 staging area gives us the opportunity to review our changes before they are
 added to the repository.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+-The Staging Area is appropriately named as it allows you to review your
+changes before making any commits. You cann use git diff in various ways to
+make comparisons between the Working Directory, the Staging Area, and the
+Repository. By doing so, the Staging Area allows you to make certain the
+changes you plan on making have not been made already, and are a change that
+will have a sound impact on the code even in the smallest of ways such as
+fixing a bug.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+-Some situations might include creating a new version of an existing project,
+whether this is a version in a different language, or changing how the code
+functions entirely, like adding an easy or hard mode to an existing game.
+One might also have a different direction for the project being worked on
+or a different method as to how things might be organized or displayed. In
+either situation, having a new branch is helpful in showing different versions
+without altering the main code. Branches make this entire process easier as
+it means having a slightly different version of the main project, easily
+labeled and recognized, without altering the main code.
+
+How do the diagrams help you vizualize the branch structure?
+-The diagrams are useful as I personally learn best through visualization.
+They make it clear how the branches are apart from one another and showcases
+the reachability between commits.
+
+What is the result of merging two branches togehter? Why do we represent it
+in the diagram the way we do?
+-Merging two branches together has the benefit of saving the commit history
+for both branches. The history is sorted by timestamp and so it may be
+more difficult to use commands such as 'git diff' but we can use
+'git show' to find the parent commit and continue to use 'diff' as we have
+before. This means any changes we have made to both branches are saved.
+-This is represented on the diagram with a new commit to one of the branches
+where the other branch also leads into it with an arrow. Which ever branch
+was checked out at the time of the merge is the main branch, while the other
+is merged onto it. The merge is treated as a new commit for the checked out
+branch and becomes the new tip of that branch.
+
+
+What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+-It's preferred doing things manually. While Git can take care of
+many issues there are times when you have to resolve things yourself
+regardless. It's best to merge on your own and resolve the conflicts.
+
+
